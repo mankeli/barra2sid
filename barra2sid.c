@@ -3,11 +3,6 @@
 #include <stdint.h>
 #include <string.h>
 
-void wr(FILE *fo, uint64_t arvo, int len)
-{
-	fwrite(&arvo, 1, len, fo);
-}
-
 int main(int argc, char *argv[])
 {
 	int year = 0;
